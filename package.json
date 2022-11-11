@@ -1,0 +1,33 @@
+{
+  "name": "login-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelEsc-2021/login-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelEsc-2021/login-react/issues"
+  },
+  "homepage": "https://github.com/AngelEsc-2021/login-react#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-oauth2": "^1.6.1"
+  }
+}
