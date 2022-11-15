@@ -8,8 +8,6 @@ const cookieSession = require('cookie-session')
 
 const app = express()
 
-
-
 app.use(session({
     resave: false,
     saveUninitialized: true,
@@ -30,8 +28,7 @@ app.get('/', (req,res) => {
 })
 
 app.get('/success', (req,res) => {
-    res.render('pages/profile.ejs', {name:req.user.displayName, email:req.user.emails[0].value,
-    pic:req.user.photos[0].value})
+    res.redirect('https://uppictures.azurewebsites.net')
 })
 
 app.get('/google',passport.authenticate('google',{scope:['profile','email']  }));
