@@ -39,6 +39,6 @@ app.get('/google/callback', passport.authenticate('google',{failureRedirect:'/fa
     }
 );
 
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log("App corres en el puerto 3000")
 })
